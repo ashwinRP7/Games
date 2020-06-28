@@ -23,9 +23,54 @@
 			margin-left: 60px;
 			margin-bottom: 60px;
 		}
+		header{
+			background-color: rgb(219, 208, 245);
+			text-align: center;
+			color: black;
+			font-size: 40px;
+		}
+		ul.navbar{
+			list-style-type: none;
+  			margin: 0;
+  			padding: 0;
+  			overflow: hidden;
+  			background-color: #333;
+		}
+		ul.navbar li a{
+			display: block;
+  			color: white;
+  			text-align: center;
+  			padding: 14px 16px;
+  			text-decoration: none;
+		}
+		ul.navbar li{
+			float: left;
+		}
+		ul.navbar li a.active{
+			background-color: #4CAF50;
+		}
+		ul {
+  			list-style-type: none;
+  			margin: 0;
+  			padding: 0;
+  			overflow: hidden;
+  			background-color: #333;
+  			position: -webkit-sticky;
+  			position: sticky;
+  			top: 0;
+		}
 	</style>
 </head>
 <body style="background-color:rgb(225, 245, 242);">
+<ul class="navbar">
+	<li><a href="https://blog.counter-strike.net/">CSGO</a></li>
+	<li> <a href="https://www.callofduty.com/home">COD</a></li>
+	<li><a href="https://www.epicgames.com/fortnite/en-US/home">Fortnite</a></li>
+	<li><a href="https://www.pubg.com/">PUBG</a></li>
+</ul>
+<header>
+	<h1>Games and Trailers</h2>
+</header>
 <div class="card" style="background-color: rgb(252, 129, 129);">
 	<a href="https://blog.counter-strike.net/"><img class="iconimage" src="csgo.jpeg" title="Click me for CSGO" alt="Click me for CSGO"></a>
 	<video controls style="margin-left: 300px; width: 800px;height: 400px;padding-top: 60px;">
